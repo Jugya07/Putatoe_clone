@@ -1,0 +1,62 @@
+.carousal{
+    height: 150px;
+    margin: 7px;
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.carousal::-webkit-scrollbar {
+    display: none;
+  }
+
+.page{
+    scroll-snap-align: start;
+    flex: 1 0 100%;
+    background-color: rgba(0,0,0,0.1);
+    animation: slide 16s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #609ea7;
+
+}
+
+
+.container{
+    display: contents;
+    cursor: pointer;
+    
+}
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}

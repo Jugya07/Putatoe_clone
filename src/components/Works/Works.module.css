@@ -1,0 +1,41 @@
+.title{
+    text-align: center;
+    background-color: rgb(202, 227, 235);
+    color: #55919b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 550;
+    border-radius: 7px;
+    padding: 5px 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item_container{
+    text-align: center;
+    flex:1 0 46%;
+    position: relative;
+    height: 100px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+.text{
+    position: absolute;
+    bottom: 3px;
+    left: 30%;
+    color: white;
+    font-weight: 700;
+}
+.item_container::after{
+    content: " 20% Off";
+    width: 70px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right:0;
+    background-color: rgb(14, 164, 14);
+    z-index: 5;
+}

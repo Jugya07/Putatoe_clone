@@ -1,0 +1,30 @@
+.services{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    background-color: white;
+    margin: 0 7px;
+    border-radius: 6px;
+}
+.item{
+    /* border: 1px solid black ; */
+    width: 22%;
+    text-align: center;
+    padding: 5px 2px 0;
+    border-radius: 8px;
+    /* background-color: white; */
+}
+.text{
+    color: #609ea7;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0;
+}
+.item:hover{
+    background-color: rgb(222, 238, 243);
+    cursor: pointer;
+}
+.icon{
+    margin-bottom: 2px;
+}
