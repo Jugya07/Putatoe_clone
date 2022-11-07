@@ -51,7 +51,6 @@
 
 .bell{
     position: relative;
-    /* background-color: red; */
 }
 .bell::after{
     content:"0";

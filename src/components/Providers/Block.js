@@ -12,22 +12,11 @@ export default function Block({list,text}) {
 
       {
         list?.map((item, index)=>{
-          console.log("inside map")
-          console.log(item)
           return(
             <Item src={img} text={item[0]} id={index}/>
           )
         })
       }
-
-        <Item src={img} text="Bikaneri Bhujia" />
-        <Item src={img} text="Bikaneri Bhujia" />
-        <Item src={img} text="Bikaneri Bhujia" />
-        <Item src={img} text="Bikaneri Bhujia" />
-        <Item src={img} text="Bikaneri Bhujia" />
-        <Item src={img} text="Bikaneri Bhujia" />
-        <Item src={img} text="Bikaneri Bhujia" />
-        <Item src={img} text="Bikaneri Bhujia" />
       </div>
     </div>
   );

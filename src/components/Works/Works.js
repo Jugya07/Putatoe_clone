@@ -11,12 +11,8 @@ export default function Works() {
         <p className={styles.title}>Services We Provide</p>
         <div className={styles.container}>
         {
-          service.map((item , index)=>{return <WorkItem text={item[0]}/>})
+          service.map((item , index)=>{return <WorkItem text={item[0]} key={index}/>})
         }
-          {/* <WorkItem/>
-          <WorkItem/>
-          <WorkItem/>
-          <WorkItem/> */}
         </div>
     </div>
   )

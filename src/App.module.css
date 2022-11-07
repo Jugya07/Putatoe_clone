@@ -2,12 +2,10 @@
     width: 100%;
     display:flex;
     justify-content: center;
-    background-color: bisque;
-    /* position: relative; */
+    background-color: rgb(213, 213, 213);
 }
 
 .container{
     width: 390px;
     background-color: rgb(221, 237, 242);
-    /* position: relative; */
 }
